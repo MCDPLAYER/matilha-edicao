@@ -1,0 +1,11 @@
+{
+  "fps": 60,
+  "sr": 48000,
+  "threads": 2,
+  "ram_pausa_gb": 1.0,
+  "ram_retoma_gb": 1.4,
+  "ram_min_render_gb": 3.0,
+  "lufs_alvo": -14.0,
+  "pico_db": -2.5,
+  "pasta_cache": ".cache-edicao"
+}

@@ -1,0 +1,4 @@
+numpy>=1.26
+psutil>=5.9
+# opcional, só para exemplos/transcrever.py:
+# faster-whisper>=1.0

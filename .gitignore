@@ -1,0 +1,43 @@
+# Mídia nunca entra no repositório (o kit trabalha SOBRE mídia que fica na sua máquina)
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.psd
+*.otf
+*.ttf
+
+# Gerados pelo kit
+.cache-edicao/
+demo-edicao/
+*.caca.npz
+*.caca-ffmpeg.log
+*.CACA.md
+*.niveis.json
+EDL.json
+RENDER.lock
+logs/
+
+# Configuração local e segredos
+config.json
+.env
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

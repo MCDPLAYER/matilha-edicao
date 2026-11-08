@@ -1,0 +1,20 @@
+{
+  "vacinas": [
+    {
+      "nota": "frame solto depois do zoom (nota técnica de um vídeo anterior)",
+      "video": "entregas/video-07-v3.mp4",
+      "edl": "entregas/video-07-v3.EDL.json",
+      "tempo_s": 1075.0,
+      "folga_s": 1.5,
+      "tipos": ["corte relâmpago", "pulo no apresentador"]
+    },
+    {
+      "nota": "trilha subiu forte no CTA",
+      "video": "entregas/video-07-v3.mp4",
+      "niveis": "entregas/video-07-v3.wav.niveis.json",
+      "tempo_s": 405.0,
+      "folga_s": 3.0,
+      "tipos": ["trilha subindo", "trilha encostando na voz"]
+    }
+  ]
+}

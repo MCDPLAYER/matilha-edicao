@@ -1,0 +1,39 @@
+{
+  "bruto": "midia/bruto-decupado.mp4",
+  "voz": "midia/voz-limpa.wav",
+  "transcricao": "midia/transcricao.json",
+  "cortes_s": [[132.40, 135.10]],
+  "insercoes": [
+    {"id": "CAP1", "em_s": 180.50, "duracao_s": 3.0, "tipo": "capitulo", "vo": "midia/vo-cap1.wav", "vo_em_s": 0.3},
+    {"id": "MINI1", "em_s": 310.20, "duracao_s": 1.8, "tipo": "mini-intro"}
+  ],
+  "tempo_das_marcas": "bruto",
+  "trilha": {
+    "blocos": [
+      {
+        "bloco": "A-abertura",
+        "arquivo": "midia/trilha-a.wav",
+        "curva_db": [[0, -60], [2, -34], [170, -34], [176, -42], [181, -60]]
+      },
+      {
+        "bloco": "B-capitulo-1",
+        "arquivo": "midia/trilha-b.wav",
+        "curva_db": [[180, -60], [184, -34], [300, -34], [303, -60]]
+      }
+    ]
+  },
+  "sfx": {
+    "eventos": [
+      {
+        "nome": "entrada do capítulo",
+        "t_s": 180.50,
+        "camadas": [
+          {"arquivo": "midia/sfx/clique.wav", "ancora_ms": 0, "ganho_db": -8},
+          {"arquivo": "midia/sfx/madeira.wav", "ancora_ms": 12, "ganho_db": -12, "atraso_ms": 10},
+          {"arquivo": "midia/sfx/folhas.wav", "ancora_ms": 0, "ganho_db": -18, "atraso_ms": 80}
+        ]
+      }
+    ]
+  },
+  "saida": {"lufs": -14, "pico_db": -2.5}
+}
